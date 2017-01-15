@@ -1,0 +1,2 @@
+# javacore
+Repository for studing

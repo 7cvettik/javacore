@@ -1,6 +1,6 @@
-package com.SvitalanaStarodub.app.utils.runners;
+package com.SvitlanaStarodub.app.utils.runners.homework.lesson2;
 
-import com.SvitalanaStarodub.app.utils.convertors.PrimitiveConvertor;
+import com.SvitlanaStarodub.app.homework.lesson2.PrimitiveConvertor;
 
 /**
  * Created by user on 22.01.2017.

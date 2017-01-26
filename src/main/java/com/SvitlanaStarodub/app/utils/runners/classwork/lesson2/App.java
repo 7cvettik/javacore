@@ -1,4 +1,7 @@
-package com.SvitalanaStarodub.app;
+package com.SvitlanaStarodub.app.utils.runners.classwork.lesson2;
+
+import com.SvitlanaStarodub.app.classwork.lesson2.NarrowingCasting;
+import com.SvitlanaStarodub.app.classwork.lesson2.WideningCasting;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package com.SvitalanaStarodub.app;
+package com.SvitlanaStarodub.app.classwork.lesson2;
 
 /**
  * Created by user on 22.01.2017.

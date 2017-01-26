@@ -1,4 +1,4 @@
-package com.SvitalanaStarodub.app;
+package com.SvitlanaStarodub.app;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

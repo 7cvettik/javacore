@@ -9,13 +9,56 @@ import org.junit.Test;
 
 
 public class UnitTestsTest {
-
+    @Test
+    public void chooseColour9()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("black", unitTests.chooseColour(9));
+    }
+    @Test
+    public void chooseColour8()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("purple", unitTests.chooseColour(8));
+    }
+    @Test
+    public void chooseColour7()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("brown", unitTests.chooseColour(7));
+    }
+    @Test
+    public void chooseColour6()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("orange", unitTests.chooseColour(6));
+    }
+    @Test
+    public void chooseColour5()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("green", unitTests.chooseColour(5));
+    }
+    @Test
+    public void chooseColour4()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("pink", unitTests.chooseColour(4));
+    }
+    @Test
+    public void chooseColour3()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("yellow", unitTests.chooseColour(3));
+    }
+    @Test
+    public void chooseColour2()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("blue", unitTests.chooseColour(2));
+    }
+    @Test
+    public void chooseColour1()  {
+        UnitTests unitTests = new UnitTests();
+        Assert.assertEquals("red", unitTests.chooseColour(1));
+    }
 
     @Test
     public void arraySort()  {
         UnitTests unitTests = new UnitTests();
         Assert.assertTrue(unitTests.arraySort());
-
     }
 
     @Test
@@ -77,4 +120,6 @@ public class UnitTestsTest {
     UnitTests unitTests = new UnitTests();
     Assert.assertEquals("Testing",unitTests.text("Testing"));
 }
+
+
 }

@@ -42,4 +42,30 @@ public class UnitTests {
         return result;
     }
 
+    public String chooseColour(int number) {
+        String colour = "";
+        switch (number){
+            case 1: colour = "red";
+            break;
+            case 2: colour = "blue";
+            break;
+            case 3: colour = "yellow";
+            break;
+            case 4: colour = "pink";
+            break;
+            case 5: colour = "green";
+            break;
+            case 6: colour = "orange";
+            break;
+            case 7: colour = "brown";
+            break;
+            case 8: colour = "purple";
+            break;
+            default: colour = "black";
+        }
+        return colour;
+    }
+
 }
+
+

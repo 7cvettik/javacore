@@ -12,17 +12,16 @@ import org.junit.runner.RunWith;
  */
 @RunWith(JUnitParamsRunner.class)
 public class ParametrizedTest {
-    MathFunc mathFunc;
 
     @Before
     public void setUp(){
-        mathFunc = new MathFunc();
+        MathFunc  mathFunc = new MathFunc();
     }
 
     @Test
     @FileParameters(value ="src/test/resources/multiplyData.csv", mapper =CsvWithHeaderMapper.class)
     public void multiplyTest(int a, int b, int expected){
-        Assert.assertEquals(expected, mathFunc.multiply(a,b));
+        Assert.assertEquals(expected, MathFunc.multiply(a,b));
     }
 
 }

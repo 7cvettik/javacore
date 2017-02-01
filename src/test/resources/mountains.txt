@@ -1,0 +1,4 @@
+parameterA, expectedResult
+1500,Medium mountain
+2000,Medium mountain
+1100,Medium mountain

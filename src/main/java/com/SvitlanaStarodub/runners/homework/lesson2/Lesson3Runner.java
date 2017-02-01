@@ -1,4 +1,4 @@
-package com.SvitlanaStarodub.app.utils.runners.homework.lesson2;
+package com.SvitlanaStarodub.runners.homework.lesson2;
 
 import com.SvitlanaStarodub.app.homework.lesson2.PrimitiveConvertor;
 

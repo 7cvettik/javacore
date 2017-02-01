@@ -1,4 +1,4 @@
-package com.SvitlanaStarodub.app.utils.runners.classwork.lesson4;
+package com.SvitlanaStarodub.runners.classwork.lesson4;
 
 import com.SvitlanaStarodub.app.classwork.lesson4.Triangle;
 

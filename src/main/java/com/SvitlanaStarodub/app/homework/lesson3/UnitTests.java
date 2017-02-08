@@ -5,15 +5,15 @@ import java.util.Arrays;
  * Created by user on 25.01.2017.
  */
 public class UnitTests {
-    public int addition(int a, int b) {
+    public static int addition(int a, int b) {
         return (a + b);
     }
 
-    public String text(String a) {
+    public static String text(String a) {
         return a;
     }
 
-    public int subtraction(int x, int y) {
+    public static int subtraction(int x, int y) {
         return (x - y);
     }
 

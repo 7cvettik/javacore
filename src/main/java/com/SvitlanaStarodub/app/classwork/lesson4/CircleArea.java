@@ -14,6 +14,7 @@ public class CircleArea {
 
         double circleArea = Math.PI*radius*radius;
         System.out.println("Area is " + circleArea);
+
     }
     public static void calculateBigger(){
         Scanner scanner = new Scanner(System.in);
@@ -28,6 +29,7 @@ public class CircleArea {
             System.out.print("Area1 is bigger ");
             else
                 System.out.println("Area2 is bigger ");
+
     }
 
 public static void calculateCircle (double value) {

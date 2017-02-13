@@ -1,6 +1,7 @@
 package com.SvitlanaStarodub.runners.homework.lesson6;
 
 import com.SvitlanaStarodub.app.homework.lesson6.ArraysHomework;
+import com.SvitlanaStarodub.app.homework.lesson6.InputArrays;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -22,7 +23,7 @@ public class MenuArrays {
             System.out.println(" 7: Multi-dimention array is aligned by right side");
             System.out.println(" 8: Sum of unknown numbers entered by user");
             System.out.println(" 9: Quit");
-            menuItem = intInput("");
+            menuItem = InputArrays.intInput("");
             switch (menuItem) {
                 case 1:
                     ArraysHomework.evenRow();
@@ -52,22 +53,5 @@ public class MenuArrays {
         }
         while (menuItem != 9);
     }
-    public static int intInput(String message){
-        int value =0;
-        boolean result = false;
-        do {
-            try {
-                Scanner scanner = new Scanner(System.in);
-                System.out.println(message);
-                value = scanner.nextInt();
-                if (value !=0) result = true;
-                else System.out.println("Enter number except 0");
 
-            } catch (InputMismatchException e) {
-                System.out.println("Enter correct INT number");
-            }
-        }
-        while (result == false);
-        return value;
-    }
 }

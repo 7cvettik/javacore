@@ -6,46 +6,47 @@ import java.lang.reflect.Array;
  * Created by user on 12.02.2017.
  */
 public class SortArrays {
-public static int [] bubblesAscending (int []arr) {
+    public static int[] bubblesAscending(int[] arr) {
 
-    int maxValue = 0;
-    boolean result;
+        int maxValue = 0;
+        boolean result;
 
-    do {
-        result = false;
-        for (int i = 0; i < arr.length - 1; i++) {
+        do {
+            result = false;
+            for (int i = 0; i < arr.length - 1; i++) {
 
-            if (arr[i] > arr[i + 1]) {
-                maxValue = arr[i];
-                arr[i] = arr[i + 1];
-                arr[i + 1] = maxValue;
-                result = true;
+                if (arr[i] > arr[i + 1]) {
+                    maxValue = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = maxValue;
+                    result = true;
+                }
+
             }
-
         }
+        while (result);
+        return arr;
     }
-    while (result);
-    return arr;
-}
-public static int [] bubblesDescending (int [] arr){
-    int minValue =0;
-    boolean result;
 
-    do{
-        result = false;
-        for (int i =arr.length - 1; i>0;i-- ){
-            if(arr[i-1]< arr[i]){
-                minValue = arr[i-1];
-                arr[i-1] = arr[i];
-                arr[i] = minValue;
-                result = true;
+    public static int[] bubblesDescending(int[] arr) {
+        int minValue = 0;
+        boolean result;
+
+        do {
+            result = false;
+            for (int i = arr.length - 1; i > 0; i--) {
+                if (arr[i - 1] < arr[i]) {
+                    minValue = arr[i - 1];
+                    arr[i - 1] = arr[i];
+                    arr[i] = minValue;
+                    result = true;
+                }
+
             }
-
         }
+        while (result);
+        return arr;
     }
-    while(result);
-    return arr;
-}
 
  /*   public static int[] doSelectionSort(int[] arr){
 
